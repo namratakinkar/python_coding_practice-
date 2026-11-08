@@ -48,6 +48,38 @@ Python has 7 main types of operators:
 
 - `operators.py` – Contains definitions, types and practical examples of Python Operators.
 
+# Python List and Indexing
+
+## 1. List
+A list is a collection of multiple items stored in a single variable.
+
+**Example:**
+```python
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+print(fruits)
+```
+
+## 2. Indexing
+Indexing is used to access individual elements from a list.
+
+### Types of Indexing
+
+**1. Positive Indexing**
+- Starts from 0.
+- Moves from left to right.
+
+**2. Negative Indexing**
+- Starts from -1.
+- Moves from right to left.
+
+## 3. Practice
+- 10 Positive Indexing Examples
+- 10 Negative Indexing Examples
+
+## python file
+
+- `list_indexing.py` – Contains the definition of Python Lists and practical examples of Positive and Negative Indexing.
+
 ## Programming Language
 - Python
 

@@ -80,6 +80,23 @@ Indexing is used to access individual elements from a list.
 
 - `list_indexing.py` – Contains the definition of Python Lists and practical examples of Positive and Negative Indexing.
 
+## Python List Slicing
+
+This file contains 40 practical examples of Python List Slicing, including Two Parameter and Three Parameter Slicing.
+
+### Topics Covered:
+- Two Parameter Slicing Positive Indexing (10 Examples) 
+- Two parameter Slicing Negative Indexing (10 Examples)
+- Three Parameter Slicing Positive Indexing (10 Examples)
+- Three Parameter Slicing Negitive Indexing (10 Examples)
+- Starting Point and Ending Point
+- Slicing Rules
+- Practical Examples with Output
+
+## Python List Slicing
+
+- `list_slicing.py` – Contains 20 practical examples of Two Parameter and Three Parameter List Slicing with Positive and Negative Indexing.
+
 ## Programming Language
 - Python
 

@@ -116,6 +116,38 @@ This file contains 40 practical examples of Python List Slicing, including Two P
 
 - list_methods.py – Contains definitions and 10 practical examples of each Python List Method.
 
+# Python String and Indexing
+
+## 1. String
+A string is a sequence of characters enclosed in single, double, or triple quotation marks.
+
+**Example:**
+```python
+my_name = "Rohan"
+print(my_name)
+```
+
+## 2. Indexing
+Indexing is used to access individual characters from a string.
+
+### Types of Indexing
+
+**1. Positive Indexing**
+- Starts from 0.
+- Moves from left to right.
+
+**2. Negative Indexing**
+- Starts from -1.
+- Moves from right to left.
+
+## 3. Practice
+- 10 Positive Indexing Examples
+- 10 Negative Indexing Examples
+
+## Python File
+
+- `string_indexing.py` – Contains the definition of Python Strings and practical examples of Positive and Negative Indexing.
+
 ## Programming Language
 - Python
 

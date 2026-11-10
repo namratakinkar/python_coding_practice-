@@ -97,6 +97,25 @@ This file contains 40 practical examples of Python List Slicing, including Two P
 
 - `list_slicing.py` – Contains 20 practical examples of Two Parameter and Three Parameter List Slicing with Positive and Negative Indexing.
 
+## Python list Methods
+
+- 1. append(): Adds an element to the end of the list.
+- 2. extend(): It is used to add multiple elements at the end of list.
+- 3. insert(): It is used to add an element at specified index.
+- 4. remove(): Removes a specific element from a list.
+- 5. pop(): By default it removes the last index element.
+- 6. clear(): Removes all elements from the list.           
+- 7. index(): it returns the first occurrence of any element.
+- 8. count(): The count( ) method count how many times an element appears in a list.
+- 9. sort(): by default it arranges elements in ascending order. 
+- sort(reverse = True) => it arranges elements in descending order.
+- 10. reverse(): Reverse the order of element in a list.
+- 11. copy(): The copy( ) method create a copy of a list
+
+## Python List Methods
+
+- list_methods.py – Contains definitions and 10 practical examples of each Python List Method.
+
 ## Programming Language
 - Python
 

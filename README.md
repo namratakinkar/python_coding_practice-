@@ -54,10 +54,10 @@ Python has 7 main types of operators:
 A list is a collection of multiple items stored in a single variable.
 
 **Example:**
-```python
+
 fruits = ["Apple", "Banana", "Mango", "Orange"]
 print(fruits)
-```
+
 
 ## 2. Indexing
 Indexing is used to access individual elements from a list.
@@ -147,6 +147,25 @@ Indexing is used to access individual characters from a string.
 ## Python File
 
 - `string_indexing.py` – Contains the definition of Python Strings and practical examples of Positive and Negative Indexing.
+
+## python string slicing
+
+- there are two types of string slicing.
+  - Two Parameter Slicing[start : End]
+  - Three Parameter Slicing[Start : End : Gap]
+
+This file contains 25 practical examples of Python String Slicing with Positive and Negative Indexing.
+
+### Topics Covered:
+
+- Two Parameter Slicing with Positive Indexing (15 Examples)
+- Two Parameter Slicing with Negative Indexing (10 Examples)
+- Starting Point and Ending Point
+- Slicing Rules
+- Practical Examples with Output
+
+- `string_slicing.py` – Contains 25 practical examples of Two Parameter String Slicing with Positive and Negative Indexing.
+
 
 ## Programming Language
 - Python

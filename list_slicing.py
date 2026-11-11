@@ -299,10 +299,10 @@
 # Positive Indexing starts from 0 and moves from Left to Right.
 
 # indexing:    0     1      2     3     4      5        6      7
-my_list = ["Amit", 25, "Python", True, 85.5, "Delhi", "CSE", 100]
+# my_list = ["Amit", 25, "Python", True, 85.5, "Delhi", "CSE", 100]
 
 # Example 1:-
-print(my_list[0:8:2])
+# print(my_list[0:8:2])
 
 # Explanation:
 # Starting Point = 0
@@ -314,7 +314,7 @@ print(my_list[0:8:2])
 # --------------------------------------------------
 
 # Example 2:-
-print(my_list[1:8:2])
+# print(my_list[1:8:2])
 
 # Explanation:
 # Starting Point = 1
@@ -326,7 +326,7 @@ print(my_list[1:8:2])
 # --------------------------------------------------
 
 # Example 3:-
-print(my_list[0:6:3])
+# print(my_list[0:6:3])
 
 # Explanation:
 # Starting Point = 0
@@ -338,7 +338,7 @@ print(my_list[0:6:3])
 # --------------------------------------------------
 
 # Example 4:-
-print(my_list[1:7:3])
+# print(my_list[1:7:3])
 
 # Explanation:
 # Starting Point = 1
@@ -350,7 +350,7 @@ print(my_list[1:7:3])
 # --------------------------------------------------
 
 # Example 5:-
-print(my_list[2:8:2])
+# print(my_list[2:8:2])
 
 # Explanation:
 # Starting Point = 2
@@ -362,7 +362,7 @@ print(my_list[2:8:2])
 # --------------------------------------------------
 
 # Example 6:-
-print(my_list[0:5:1])
+# print(my_list[0:5:1])
 
 # Explanation:
 # Starting Point = 0
@@ -374,7 +374,7 @@ print(my_list[0:5:1])
 # --------------------------------------------------
 
 # Example 7:-
-print(my_list[2:7:2])
+# print(my_list[2:7:2])
 
 # Explanation:
 # Starting Point = 2
@@ -386,7 +386,7 @@ print(my_list[2:7:2])
 # --------------------------------------------------
 
 # Example 8:-
-print(my_list[3:8:2])
+# print(my_list[3:8:2])
 
 # Explanation:
 # Starting Point = 3
@@ -398,7 +398,7 @@ print(my_list[3:8:2])
 # --------------------------------------------------
 
 # Example 9:-
-print(my_list[::2])
+# print(my_list[::2])
 
 # Explanation:
 # Starting Point = Not Given (Default 0)
@@ -410,7 +410,7 @@ print(my_list[::2])
 # --------------------------------------------------
 
 # Example 10:-
-print(my_list[1::2])
+# print(my_list[1::2])
 
 # Explanation:
 # Starting Point = 1
@@ -429,125 +429,124 @@ print(my_list[1::2])
 # Negative gap Size (-1) moves the list in reverse direction.
 
 # indexing:    -8     -7    -6      -5     -4     -3        -2      -1
-my_list = ["Rahul", 30, "Java", False, 95.5, "Mumbai", "Python", 200]
+# my_list = ["Rahul", 30, "Java", False, 95.5, "Mumbai", "Python", 200]
 
 
 # Example 1:-
-print(my_list[-1:-9:-1])
+# print(my_list[-1:-9:1])
 
 # Explanation:
 # Starting Point = -1
 # Ending Point = -9 (Excluded)
-# Gap Size = -1
+# Gap Size = (1 - 1) = 0
 # So Final Range = -1, -2, -3, -4, -5, -6, -7, -8
 # Final Output = [200, "Python", "Mumbai", 95.5, False, "Java", 30, "Rahul"]
 
 # --------------------------------------------------
 
 # Example 2:-
-print(my_list[-2:-9:-2])
+# print(my_list[-2:-9:2])
 
 # Explanation:
 # Starting Point = -2
 # Ending Point = -9 (Excluded)
-# Gap Size = -2
+# Gap Size = (2 - 1) = 1
 # So Final Range = -2, -4, -6, -8
 # Final Output = ["Python", 95.5, "Java", "Rahul"]
 
 # --------------------------------------------------
 
 # Example 3:-
-print(my_list[-1:-9:-2])
+# print(my_list[-1:-9:2])
 
 # Explanation:
 # Starting Point = -1
 # Ending Point = -9 (Excluded)
-# Step Size = -2
+# Step Size = (2 - 1) = 1
 # So Final Range = -1, -3, -5, -7
 # Final Output = [200, "Mumbai", False, 30]
 
 # --------------------------------------------------
 
 # Example 4:-
-print(my_list[-3:-9:-1])
+# print(my_list[-3:-9:1])
 
 # Explanation:
 # Starting Point = -3
 # Ending Point = -9(Excluded)
-# Gap Size = -1
+# Gap Size = (1 - 1) = 0
 # So Final Range = -3, -4, -5, -6, -7, -8
 # Final Output = ["Mumbai", 95.5, False, "Java", 30, "Rahul"]
 
 # --------------------------------------------------
 
 # Example 5:-
-print(my_list[-4:-9:-2])
+# print(my_list[-4:-9:2])
 
 # Explanation:
 # Starting Point = -4
 # Ending Point = -9 (Excluded)
-# Gap Size = -2
+# Gap Size = (2 - 1) = 1
 # So Final Range = -4, -6, -8
 # Final Output = [95.5, "Java", "Rahul"]
 
 # --------------------------------------------------
 
 # Example 6:-
-print(my_list[-5:-9:-1])
+# print(my_list[-5:-9:1])
 
 # Explanation:
 # Starting Point = -5
 # Ending Point = -9 (Excluded)
-# Gap Size = -1
+# Gap Size = (1 - 1) = 0
 # So Final Range = -5, -6, -7, -8
 # Final Output = [False, "Java", 30, "Rahul"]
 
 # --------------------------------------------------
 
 # Example 7:-
-print(my_list[-1:-5:-1])
+# print(my_list[-1:-5:1])
 
 # Explanation:
 # Starting Point = -1
 # Ending Point = -5 (Excluded)
-# Step Size = -1
+# Step Size = (1 - 1) = 0
 # So Final Range = -1, -2, -3, -4
 # Final Output = [200, "Python", "Mumbai", 95.5]
 
 # --------------------------------------------------
 
 # Example 8:-
-print(my_list[-2:-6:-1])
+# print(my_list[-2:-6:1])
 
 # Explanation:
 # Starting Point = -2
 # Ending Point = -6 (Excluded)
-# Gap Size = -1
+# Gap Size = (1 - 1) = 0
 # So Final Range = -2, -3, -4, -5
 # Final Output = ["Python", "Mumbai", 95.5, False]
 
 # --------------------------------------------------
 
 # Example 9:-
-print(my_list[-3:-7:-2])
+# print(my_list[-3:-7:2])
 
 # Explanation:
 # Starting Point = -3
 # Ending Point = -7 (Excluded)
-# Gap Size = -2
+# Gap Size = (2 - 1) = 1
 # So Final Range = -3, -5
 # Final Output = ["Mumbai", False]
 
 # --------------------------------------------------
 
 # Example 10:-
-
-print(my_list[::-1])
+# print(my_list[::1])
 
 # Explanation:
 # Starting Point = Not Given (Default Last Index)
 # Ending Point = Not Given (Default Before First Index)
-# Gap Size = -1
+# Gap Size = (1 - 1) = 0
 # So Final Range = -1 to -8
 # Final Output = [200, "Python", "Mumbai", 95.5, False, "Java", 30, "Rahul"]
 

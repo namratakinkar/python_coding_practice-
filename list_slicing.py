@@ -428,126 +428,150 @@
 # Negative Indexing starts from -1 and moves from Right to Left.
 # Negative gap Size (-1) moves the list in reverse direction.
 
-# indexing:    -8     -7    -6      -5     -4     -3        -2      -1
-# my_list = ["Rahul", 30, "Java", False, 95.5, "Mumbai", "Python", 200]
+
+# Three Parameter List Slicing with Negative Indexing
+
+#  -6       -5       -4      -3       -2       -1 => negative indexing
+#  Apple    Banana   Mango   Orange   Grapes   Kiwi
+
+# my_list = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Kiwi"]
 
 
-# Example 1:-
-# print(my_list[-1:-9:1])
+# Example 1 :-
 
-# Explanation:
-# Starting Point = -1
-# Ending Point = -9 (Excluded)
-# Gap Size = (1 - 1) = 0
-# So Final Range = -1, -2, -3, -4, -5, -6, -7, -8
-# Final Output = [200, "Python", "Mumbai", 95.5, False, "Java", 30, "Rahul"]
+# print(my_list[-6 : -1: 2])
 
-# --------------------------------------------------
+# Explanation :-
+# Starting Point :- -6
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (2 - 1) = 1
+# Final Range :- -6, -4, -2
+# Final Output :- ['Apple', 'Mango', 'Grapes']
 
-# Example 2:-
-# print(my_list[-2:-9:2])
+# ______________________________________________________
 
-# Explanation:
-# Starting Point = -2
-# Ending Point = -9 (Excluded)
-# Gap Size = (2 - 1) = 1
-# So Final Range = -2, -4, -6, -8
-# Final Output = ["Python", 95.5, "Java", "Rahul"]
 
-# --------------------------------------------------
+# Example 2 :-
 
-# Example 3:-
-# print(my_list[-1:-9:2])
+# print(my_list[-6 : -1: 1])
 
-# Explanation:
-# Starting Point = -1
-# Ending Point = -9 (Excluded)
-# Step Size = (2 - 1) = 1
-# So Final Range = -1, -3, -5, -7
-# Final Output = [200, "Mumbai", False, 30]
+# Explanation :-
+# Starting Point :- -6
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (1 - 1) = 0
+# Final Range :- -6, -5, -4, -3, -2
+# Final Output :- ['Apple', 'Banana', 'Mango', 'Orange', 'Grapes']
 
-# --------------------------------------------------
+# ______________________________________________________
 
-# Example 4:-
-# print(my_list[-3:-9:1])
 
-# Explanation:
-# Starting Point = -3
-# Ending Point = -9(Excluded)
-# Gap Size = (1 - 1) = 0
-# So Final Range = -3, -4, -5, -6, -7, -8
-# Final Output = ["Mumbai", 95.5, False, "Java", 30, "Rahul"]
+# Example 3 :-
 
-# --------------------------------------------------
+# print(my_list[-5 : -1: 2])
 
-# Example 5:-
-# print(my_list[-4:-9:2])
+# Explanation :-
+# Starting Point :- -5
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (2 - 1) = 1
+# Final Range :- -5, -3
+# Final Output :- ['Banana', 'Orange']
 
-# Explanation:
-# Starting Point = -4
-# Ending Point = -9 (Excluded)
-# Gap Size = (2 - 1) = 1
-# So Final Range = -4, -6, -8
-# Final Output = [95.5, "Java", "Rahul"]
+# ______________________________________________________
 
-# --------------------------------------------------
 
-# Example 6:-
-# print(my_list[-5:-9:1])
+# Example 4 :-
 
-# Explanation:
-# Starting Point = -5
-# Ending Point = -9 (Excluded)
-# Gap Size = (1 - 1) = 0
-# So Final Range = -5, -6, -7, -8
-# Final Output = [False, "Java", 30, "Rahul"]
+# print(my_list[-6 : -2: 2])
 
-# --------------------------------------------------
+# Explanation :-
+# Starting Point :- -6
+# Ending Point :- -2 (Excluded)
+# Gap Value :- (2 - 1) = 1
+# Final Range :- -6, -4
+# Final Output :- ['Apple', 'Mango']
 
-# Example 7:-
-# print(my_list[-1:-5:1])
+# ______________________________________________________
 
-# Explanation:
-# Starting Point = -1
-# Ending Point = -5 (Excluded)
-# Step Size = (1 - 1) = 0
-# So Final Range = -1, -2, -3, -4
-# Final Output = [200, "Python", "Mumbai", 95.5]
 
-# --------------------------------------------------
+# Example 5 :-
 
-# Example 8:-
-# print(my_list[-2:-6:1])
+# print(my_list[-5 : -2: 1])
 
-# Explanation:
-# Starting Point = -2
-# Ending Point = -6 (Excluded)
-# Gap Size = (1 - 1) = 0
-# So Final Range = -2, -3, -4, -5
-# Final Output = ["Python", "Mumbai", 95.5, False]
+# Explanation :-
+# Starting Point :- -5
+# Ending Point :- -2 (Excluded)
+# Gap Value :- (1 - 1) = 0
+# Final Range :- -5, -4, -3
+# Final Output :- ['Banana', 'Mango', 'Orange']
 
-# --------------------------------------------------
+# ______________________________________________________
 
-# Example 9:-
-# print(my_list[-3:-7:2])
 
-# Explanation:
-# Starting Point = -3
-# Ending Point = -7 (Excluded)
-# Gap Size = (2 - 1) = 1
-# So Final Range = -3, -5
-# Final Output = ["Mumbai", False]
+# Example 6 :-
 
-# --------------------------------------------------
+# print(my_list[-4 : -1: 1])
 
-# Example 10:-
-# print(my_list[::1])
+# Explanation :-
+# Starting Point :- -4
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (1 - 1) = 0
+# Final Range :- -4, -3, -2
+# Final Output :- ['Mango', 'Orange', 'Grapes']
 
-# Explanation:
-# Starting Point = Not Given (Default Last Index)
-# Ending Point = Not Given (Default Before First Index)
-# Gap Size = (1 - 1) = 0
-# So Final Range = -1 to -8
-# Final Output = [200, "Python", "Mumbai", 95.5, False, "Java", 30, "Rahul"]
+# ______________________________________________________
 
-# ---------------------------------------------------
+
+# Example 7 :-
+
+# print(my_list[-6 : -1: 3])
+
+# Explanation :-
+# Starting Point :- -6
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (3 - 1) = 2
+# Final Range :- -6, -3
+# Final Output :- ['Apple', 'Orange']
+
+# ______________________________________________________
+
+
+# Example 8 :-
+
+# print(my_list[-5 : -1: 3])
+
+# Explanation :-
+# Starting Point :- -5
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (3 - 1) = 2
+# Final Range :- -5, -2
+# Final Output :- ['Banana', 'Grapes']
+
+# ______________________________________________________
+
+
+# Example 9 :-
+
+# print(my_list[-4 : -1: 2])
+
+# Explanation :-
+# Starting Point :- -4
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (2 - 1) = 1
+# Final Range :- -4, -2
+# Final Output :- ['Mango', 'Grapes']
+
+# ______________________________________________________
+
+
+# Example 10 :-
+
+# print(my_list[-3 : -1: 1])
+
+# Explanation :-
+# Starting Point :- -3
+# Ending Point :- -1 (Excluded)
+# Gap Value :- (1 - 1) = 0
+# Final Range :- -3, -2
+# Final Output :- ['Orange', 'Grapes']
+
+# ______________________________________________________

@@ -154,17 +154,24 @@ Indexing is used to access individual characters from a string.
   - Two Parameter Slicing[start : End]
   - Three Parameter Slicing[Start : End : Gap]
 
-This file contains 25 practical examples of Python String Slicing with Positive and Negative Indexing.
+This file contains 50 practical examples of Python String Slicing with Positive and Negative Indexing.
 
 ### Topics Covered:
 
 - Two Parameter Slicing with Positive Indexing (15 Examples)
 - Two Parameter Slicing with Negative Indexing (10 Examples)
+- Three Parameter Slicing with Positive Indexing (15 Examples)
+- Three Parameter Slicing with Negative Indexing (10 Examples)
 - Starting Point and Ending Point
 - Slicing Rules
 - Practical Examples with Output
 
-- `string_slicing.py` – Contains 25 practical examples of Two Parameter String Slicing with Positive and Negative Indexing.
+## Python File
+
+
+## Python File
+
+- `string_slicing.py` - Contains 50 practical examples of Python String Slicing using Two and Three Parameters with Positive and Negative Indexing.
 
 
 ## Programming Language

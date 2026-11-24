@@ -575,3 +575,20 @@
 # Final Output :- ['Orange', 'Grapes']
 
 # ______________________________________________________
+
+# Example 11 :- 
+
+        # -10      -9      -8       -7          -6       -5       -4       -3         -2          -1  => indexing
+name = ["siya", "pari", "tannu", "pranjali", "gita", "mayuri", "mahi", "bhavika", "shraddha", "vandana"]
+print(name[-10: -6: 6])
+print(name[-5: -1: 4])
+print(name[-8: -2: 3])
+print(name[-9: -3: 2])
+print(name[-6: -1: 5])
+print(name[-8: -6: 1])
+print(name[-4: -1: 1])
+print(name[-10: -1: 4])
+print(name[-9: -6: 6])
+print(name[-10: -3: 7])
+print(name[-9: -5: 1])
+

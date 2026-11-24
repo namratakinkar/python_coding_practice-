@@ -212,3 +212,33 @@
 
 # _____________________________________________________________________
 
+# # Example 11 :- 
+#            -9  -8   -7    -6      -5         -4         -3         -2      -1   => indexing
+my_list = [12, 55, 65.9, 34.9, "Computer", "Keyboard", "Monday", "true", "False"]
+print(my_list[-3])
+print(my_list[-6])
+print(my_list[-7])
+print(my_list[-5])
+print(my_list[-1])
+print(my_list[-2])
+print(my_list[-4])
+print(my_list[-9])
+print(my_list[-8])
+
+# ___________________________________________________________________________
+
+# # Example 12 :-
+#          -10      -9      -8        -7         -6      -5        -4      -3          -2         -1  => indexing
+name = ["siya", "pari", "tannu", "pranjali", "gita", "mayuri", "mahi", "bhavika", "shraddha", "vandana"]
+print(name[-10])
+print(name[-9])
+print(name[-8])
+print(name[-7])
+print(name[-6])
+print(name[-5])
+print(name[-4])
+print(name[-3])
+print(name[-2])
+print(name[-1])
+
+# _______________________________________________________________________________
